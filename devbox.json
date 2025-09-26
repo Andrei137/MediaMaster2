@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "flutter@3.32.8-sdk-links",
+    "uv@0.8.2",
+  ],
+  "shell": {
+    "init_hook": [
+      "rps restore",
+    ],
+  },
+  "env": {
+    "PATH": "$HOME/.pub-cache/bin:$PATH",
+  },
+}

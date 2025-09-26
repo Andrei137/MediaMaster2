@@ -74,8 +74,8 @@ class HowLongToBeat extends Provider {
     try {
       final scriptPath = p.join(Directory.current.path, 'assets', 'python', 'howlongtobeat.py');
       var result = await Process.run(
-        'python',
-        [scriptPath, gameName],
+        'uv',
+        ['run', scriptPath, gameName],
       );
 
       if (result.exitCode == 0) {

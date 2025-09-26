@@ -56,14 +56,18 @@ flutter:
 
 scripts:
   restore             : flutter clean && flutter pub get
-  python              : pip install -r assets/python/requirements.txt
-  dependencies        : rps restore && rps python
-  app                 : flutter run -d windows
-  app:dev             : flutter run -d windows --release
-  app:local           : flutter run --dart-define=LOCAL=true -d windows
-  build               : flutter build windows --release
-  build:dev           : flutter build windows
-  build:local         : flutter build --dart-define=LOCAL=true windows
+  windows:app         : flutter run -d windows --release
+  windows:app-dev     : flutter run -d windows
+  windows:app-local   : flutter run --dart-define=LOCAL=true -d windows
+  windows:build       : flutter build windows --release
+  windows:build-dev   : flutter build windows
+  windows:build-local : flutter build --dart-define=LOCAL=true windows
+  linux:app           : flutter run -d linux
+  linux:app-dev       : flutter run -d linux --release
+  linux:app-local     : flutter run --dart-define=LOCAL=true -d linux
+  linux:build         : flutter build linux --release
+  linux:build-dev     : flutter build linux
+  linux:build-local   : flutter build --dart-define=LOCAL=true linux
   lint                : flutter analyze
   server              : dart run --define=LOCAL=true backend/main.dart
   server:dev          : dart run --define=RELOAD=true --define=LOCAL=true --enable-vm-service backend/main.dart

@@ -11,7 +11,7 @@ dart pub global activate rps
 
 - Install the dependencies
 ```bash
-rps dependencies
+rps restore
 ```
 
 - Local Server
@@ -21,12 +21,14 @@ rps server
 
 - Running on local server
 ```bash
-rps app:local
+rps windows:app-local
+rps linux:app-local
 ```
 
 - Running on depoyed server
 ```bash
-rps app
+rps windows:app
+rps linux:app
 ```
 
 - Deployed server https://mediamaster.fly.dev/

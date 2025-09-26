@@ -1,0 +1,105 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "flutter@3.32.8-sdk-links": {
+      "last_modified": "2025-07-28T17:09:23Z",
+      "resolved": "github:NixOS/nixpkgs/648f70160c03151bc2121d179291337ad6bc564b#flutter",
+      "source": "devbox-search",
+      "version": "3.32.8-sdk-links",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gsxwn0c39rvnd8jdxp9k2q9xhqsrxfb9-flutter-wrapped-3.32.8-sdk-links",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gsxwn0c39rvnd8jdxp9k2q9xhqsrxfb9-flutter-wrapped-3.32.8-sdk-links"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/x5cv0xb4apxz3s3p22w8mz718faji17y-flutter-wrapped-3.32.8-sdk-links",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/x5cv0xb4apxz3s3p22w8mz718faji17y-flutter-wrapped-3.32.8-sdk-links"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hsg1ay58v3i02350h08a0a5qcdbk4ld9-flutter-wrapped-3.32.8-sdk-links",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hsg1ay58v3i02350h08a0a5qcdbk4ld9-flutter-wrapped-3.32.8-sdk-links"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rj7vg4rl6p6ilzqj4fx13a78kq99lf7a-flutter-wrapped-3.32.8-sdk-links",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rj7vg4rl6p6ilzqj4fx13a78kq99lf7a-flutter-wrapped-3.32.8-sdk-links"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-09-14T18:05:02Z",
+      "resolved": "github:NixOS/nixpkgs/88cef159e47c0dc56f151593e044453a39a6e547?lastModified=1757873102&narHash=sha256-kYhNxLlYyJcUouNRazBufVfBInMWMyF%2B44xG%2Fxar2yE%3D"
+    },
+    "uv@0.8.2": {
+      "last_modified": "2025-07-28T17:09:23Z",
+      "resolved": "github:NixOS/nixpkgs/648f70160c03151bc2121d179291337ad6bc564b#uv",
+      "source": "devbox-search",
+      "version": "0.8.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/db9y1b002zlnyjgpsnbl9hvlwsiqajl4-uv-0.8.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/db9y1b002zlnyjgpsnbl9hvlwsiqajl4-uv-0.8.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/bdps6h2gn2rysavc3cq2slqnjlsyyk03-uv-0.8.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/bdps6h2gn2rysavc3cq2slqnjlsyyk03-uv-0.8.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/91g6383zq1wbiik2an7g6yfrj294c19v-uv-0.8.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/91g6383zq1wbiik2an7g6yfrj294c19v-uv-0.8.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/swq8qrr7n5gkc1b4940q62a3ll52prgl-uv-0.8.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/swq8qrr7n5gkc1b4940q62a3ll52prgl-uv-0.8.2"
+        }
+      }
+    }
+  }
+}

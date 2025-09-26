@@ -1,3 +1,10 @@
+# /// script
+# requires-python = ">=3.14"
+# dependencies = [
+#     "howlongtobeatpy",
+# ]
+# ///
+
 import sys
 import asyncio
 from howlongtobeatpy import HowLongToBeat
